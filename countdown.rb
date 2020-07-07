@@ -11,7 +11,7 @@ def countdown(n)
   end
 end
 
-def countdown_with_sleep
+def countdown_with_sleep(n)
   n <= 60
   while n > 0
     puts "#{n} SECOND(S)!"
