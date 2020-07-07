@@ -12,9 +12,9 @@ def countdown(n)
 end
 
 def countdown_with_sleep
-  def countdown(n)
   n <= 60
   while n > 0
+    sleep(1.seconds)
     puts "#{n} SECOND(S)!"
     n -= 1
     sleep(1.seconds)
@@ -22,5 +22,4 @@ def countdown_with_sleep
   if n == 0
     "HAPPY NEW YEAR!"
   end
-end
 end
